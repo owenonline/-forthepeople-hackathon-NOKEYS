@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #A51C30;
+    color: #fff;
+    width: 100vw; 
+    height: 10vh;
+    justify-content: center;
+}
+
+.navbar_logo_pic {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar_logo_text {
+    font-family: Mukta;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.navbar_logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

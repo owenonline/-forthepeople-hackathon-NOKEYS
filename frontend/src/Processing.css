@@ -1,0 +1,23 @@
+.gif_container {
+
+}
+
+.gif_text {
+    font-family: Mukta Vaani;
+    font-size: 16px;
+    font-weight: 700;
+    transform: translateY(-750%);
+    animation: blink 2.2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
